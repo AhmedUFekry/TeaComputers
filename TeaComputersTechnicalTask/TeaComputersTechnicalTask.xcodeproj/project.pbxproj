@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		AB26D2FD2A3E318F005F1D78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26D2FC2A3E318F005F1D78 /* AppDelegate.swift */; };
 		AB26D2FF2A3E318F005F1D78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26D2FE2A3E318F005F1D78 /* SceneDelegate.swift */; };
-		AB26D3012A3E318F005F1D78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26D3002A3E318F005F1D78 /* ViewController.swift */; };
 		AB26D3042A3E318F005F1D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB26D3022A3E318F005F1D78 /* Main.storyboard */; };
 		AB26D3062A3E3191005F1D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB26D3052A3E3191005F1D78 /* Assets.xcassets */; };
 		AB26D3092A3E3191005F1D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB26D3072A3E3191005F1D78 /* LaunchScreen.storyboard */; };
 		AB26D3142A3E3191005F1D78 /* TeaComputersTechnicalTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26D3132A3E3191005F1D78 /* TeaComputersTechnicalTaskTests.swift */; };
 		AB26D31E2A3E3191005F1D78 /* TeaComputersTechnicalTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26D31D2A3E3191005F1D78 /* TeaComputersTechnicalTaskUITests.swift */; };
 		AB26D3202A3E3191005F1D78 /* TeaComputersTechnicalTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26D31F2A3E3191005F1D78 /* TeaComputersTechnicalTaskUITestsLaunchTests.swift */; };
+		ABA7200D2A3E35B8005D48BE /* RepositoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7200C2A3E35B8005D48BE /* RepositoriesTableViewController.swift */; };
+		ABA7200F2A3E3798005D48BE /* RipositoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7200E2A3E3798005D48BE /* RipositoriesTableViewCell.swift */; };
+		ABA720112A3E3CE9005D48BE /* RipositoriesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA720102A3E3CE9005D48BE /* RipositoriesDataModel.swift */; };
+		ABA720132A3E3E0A005D48BE /* RipoNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA720122A3E3E0A005D48BE /* RipoNetworkManager.swift */; };
+		ABA720152A3E43F9005D48BE /* RiposViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA720142A3E43F9005D48BE /* RiposViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		AB26D2F92A3E318F005F1D78 /* TeaComputersTechnicalTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeaComputersTechnicalTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB26D2FC2A3E318F005F1D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB26D2FE2A3E318F005F1D78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB26D3002A3E318F005F1D78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB26D3032A3E318F005F1D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB26D3052A3E3191005F1D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB26D3082A3E3191005F1D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		AB26D3192A3E3191005F1D78 /* TeaComputersTechnicalTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeaComputersTechnicalTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB26D31D2A3E3191005F1D78 /* TeaComputersTechnicalTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaComputersTechnicalTaskUITests.swift; sourceTree = "<group>"; };
 		AB26D31F2A3E3191005F1D78 /* TeaComputersTechnicalTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaComputersTechnicalTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABA7200C2A3E35B8005D48BE /* RepositoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesTableViewController.swift; sourceTree = "<group>"; };
+		ABA7200E2A3E3798005D48BE /* RipositoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipositoriesTableViewCell.swift; sourceTree = "<group>"; };
+		ABA720102A3E3CE9005D48BE /* RipositoriesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipositoriesDataModel.swift; sourceTree = "<group>"; };
+		ABA720122A3E3E0A005D48BE /* RipoNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipoNetworkManager.swift; sourceTree = "<group>"; };
+		ABA720142A3E43F9005D48BE /* RiposViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiposViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,11 @@
 		AB26D2FB2A3E318F005F1D78 /* TeaComputersTechnicalTask */ = {
 			isa = PBXGroup;
 			children = (
-				AB26D2FC2A3E318F005F1D78 /* AppDelegate.swift */,
-				AB26D2FE2A3E318F005F1D78 /* SceneDelegate.swift */,
-				AB26D3002A3E318F005F1D78 /* ViewController.swift */,
-				AB26D3022A3E318F005F1D78 /* Main.storyboard */,
-				AB26D3052A3E3191005F1D78 /* Assets.xcassets */,
-				AB26D3072A3E3191005F1D78 /* LaunchScreen.storyboard */,
 				AB26D30A2A3E3191005F1D78 /* Info.plist */,
+				ABA7200B2A3E343A005D48BE /* Model */,
+				ABA720092A3E3414005D48BE /* View */,
+				ABA7200A2A3E342E005D48BE /* ViewModel */,
+				ABA720082A3E33FA005D48BE /* Utilities */,
 			);
 			path = TeaComputersTechnicalTask;
 			sourceTree = "<group>";
@@ -125,6 +131,44 @@
 				AB26D31F2A3E3191005F1D78 /* TeaComputersTechnicalTaskUITestsLaunchTests.swift */,
 			);
 			path = TeaComputersTechnicalTaskUITests;
+			sourceTree = "<group>";
+		};
+		ABA720082A3E33FA005D48BE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AB26D2FC2A3E318F005F1D78 /* AppDelegate.swift */,
+				AB26D2FE2A3E318F005F1D78 /* SceneDelegate.swift */,
+				AB26D3052A3E3191005F1D78 /* Assets.xcassets */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		ABA720092A3E3414005D48BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB26D3072A3E3191005F1D78 /* LaunchScreen.storyboard */,
+				AB26D3022A3E318F005F1D78 /* Main.storyboard */,
+				ABA7200C2A3E35B8005D48BE /* RepositoriesTableViewController.swift */,
+				ABA7200E2A3E3798005D48BE /* RipositoriesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABA7200A2A3E342E005D48BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABA720142A3E43F9005D48BE /* RiposViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ABA7200B2A3E343A005D48BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABA720102A3E3CE9005D48BE /* RipositoriesDataModel.swift */,
+				ABA720122A3E3E0A005D48BE /* RipoNetworkManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB26D3012A3E318F005F1D78 /* ViewController.swift in Sources */,
 				AB26D2FD2A3E318F005F1D78 /* AppDelegate.swift in Sources */,
+				ABA7200F2A3E3798005D48BE /* RipositoriesTableViewCell.swift in Sources */,
+				ABA720112A3E3CE9005D48BE /* RipositoriesDataModel.swift in Sources */,
 				AB26D2FF2A3E318F005F1D78 /* SceneDelegate.swift in Sources */,
+				ABA720132A3E3E0A005D48BE /* RipoNetworkManager.swift in Sources */,
+				ABA720152A3E43F9005D48BE /* RiposViewModel.swift in Sources */,
+				ABA7200D2A3E35B8005D48BE /* RepositoriesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
